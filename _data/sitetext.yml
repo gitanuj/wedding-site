@@ -1,0 +1,32 @@
+timeline:
+    title: "Save the date"
+    section: timeline
+    events:
+      - title: "Ring Ceremony"
+        year: "Feb 15<sup>th</sup>"
+        image: assets/img/timeline/1.jpg
+      - title: "Wedding"
+        year: "Feb 16<sup>th</sup>"
+        image: assets/img/timeline/2.jpg
+    end: "Be Part <br> of Our <br> Story!"
+
+venue:
+    title: "Venue"
+    section: venue
+    
+team:
+    title: "Meet the couple"
+    subtext: "Mittal family warmly invites you and your family to join us on *February 15th & 16th 2021* at *Club Mahindra Corbett Resort*. Your presence will be a blessing to the couple. <br /><br /> ***Stay tuned for a complete list of events...***"
+    section: team
+    people:
+      - name: "Tanuj Mittal"
+        role: "Groom"
+        image: assets/img/team/1.jpg
+      - name: "Rishanki Jain"
+        role: "Bride"
+        image: assets/img/team/2.jpg
+
+contact:
+    title: "RSVP"
+
+# {{ site.data.sitetext.ex.ex | markdownify | default: example }}

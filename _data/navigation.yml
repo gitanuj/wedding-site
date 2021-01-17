@@ -1,0 +1,12 @@
+nav:
+  - title: "Save the date"
+    section: timeline
+
+  - title: "Venue"
+    section: venue
+
+  - title: "Couple"
+    section: team
+
+  - title: "RSVP"
+    section: contact
