@@ -1,13 +1,37 @@
 timeline:
-    title: "Save the date"
+    title: "Program"
     section: timeline
     events:
-      - title: "Ring Ceremony"
-        year: "Feb 15<sup>th</sup>"
-        image: assets/img/timeline/1.jpg
-      - title: "Wedding"
-        year: "Feb 16<sup>th</sup>"
-        image: assets/img/timeline/2.jpg
+      - title: "Check-in"
+        year: "Feb 15<sup>th</sup> 11:00 am"
+        image: "assets/img/timeline/1.jpg"
+      - title: "Bhaat"
+        year: "Feb 15<sup>th</sup> 3:00 pm"
+        image: "assets/img/timeline/2.jpg"
+      - title: "Godh Tikka"
+        year: "Feb 15<sup>th</sup> 4:00 pm"
+        image: "assets/img/timeline/3.jpg"
+      - title: "Sangeet"
+        year: "Feb 15<sup>th</sup> 7:30 pm"
+        image: "assets/img/timeline/4.jpg"
+      - title: "Haldi Mela"
+        year: "Feb 16<sup>th</sup> 9:00 am"
+        image: "assets/img/timeline/5.jpg"
+      - title: "Ghurchadi"
+        year: "Feb 16<sup>th</sup> 1:00 pm"
+        image: "assets/img/timeline/6.jpg"
+      - title: "Jaimala"
+        year: "Feb 16<sup>th</sup> 4:30 pm"
+        image: "assets/img/timeline/7.jpg"
+      - title: "Phere"
+        year: "Feb 16<sup>th</sup> 5:00 pm"
+        image: "assets/img/timeline/8.jpg"
+      - title: "Reception"
+        year: "Feb 16<sup>th</sup> 7:30 pm"
+        image: "assets/img/timeline/9.jpg"
+      - title: "Check-out"
+        year: "Feb 17<sup>th</sup> 10:30 am"
+        image: "assets/img/timeline/10.jpg"
     end: "Be Part <br> of Our <br> Story!"
 
 venue:
@@ -16,7 +40,7 @@ venue:
     
 team:
     title: "Meet the couple"
-    subtext: "Mittal family warmly invites you and your family to join us on *February 15th & 16th 2021* at *Club Mahindra Corbett Resort*. Your presence will be a blessing to the couple. <br /><br /> ***Stay tuned for a complete list of events...***"
+    subtext: "***Mittal family*** warmly invites you and your family to join us on *February 15th & 16th 2021* at *Club&nbsp;Mahindra&nbsp;Corbett&nbsp;Resort*. Your presence will be a blessing to the couple."
     section: team
     people:
       - name: "Tanuj Mittal"
@@ -28,5 +52,6 @@ team:
 
 contact:
     title: "RSVP"
+    text: "Please fill up the form below so that we can make hotel reservations for you."
 
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}
