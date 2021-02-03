@@ -6,7 +6,7 @@ timeline:
         year: "Feb 15<sup>th</sup> 11:00 am"
         image: "assets/img/timeline/1.jpg"
       - title: "Bhaat"
-        year: "Feb 15<sup>th</sup> 3:00 pm"
+        year: "Feb 15<sup>th</sup> 2:00 pm"
         image: "assets/img/timeline/2.jpg"
       - title: "Godh Tikka"
         year: "Feb 15<sup>th</sup> 4:00 pm"
@@ -40,7 +40,7 @@ venue:
     
 team:
     title: "Meet the couple"
-    subtext: "***Mittal family*** warmly invites you and your family to join us on *February 15th & 16th 2021* at *Club&nbsp;Mahindra&nbsp;Corbett&nbsp;Resort*. Your presence will be a blessing to the couple."
+    subtext: "***Mittal family*** warmly invites you and your family to join us on *February 15th & 16th 2021* at *Club&nbsp;Mahindra&nbsp;Corbett&nbsp;Resort*. Your presence will be a blessing to the couple.<br/><br/>Regards Anita & Pawan Mittal"
     section: team
     people:
       - name: "Tanuj Mittal"
