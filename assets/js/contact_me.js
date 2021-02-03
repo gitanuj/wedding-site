@@ -55,6 +55,7 @@ $(function () {
           const age = $(`input#age-${i}`).val();
           const gender = $(`select#gender-${i}`).val();
           const photoIdType = $(`select#photoIdType-${i}`).val();
+          const photoIdNumber = $(`input#photoIdNumber-${i}`).val();
           const photoIdFile = $(`input#photoId-${i}`)[0].files[0];
           const photoIdFileName = generateUniqueFileName(name, photoIdFile);
           const photoId = await readAsDataURLAsync(photoIdFile);
@@ -66,6 +67,7 @@ $(function () {
             phone,
             address,
             photoIdType,
+            photoIdNumber,
             photoId,
             photoIdFileName
           });
@@ -151,10 +153,10 @@ $(function () {
             <p class="help-block text-danger"></p>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="form-group">
             <select name="photoIdType-${index}" class="form-control" id="photoIdType-${index}" placeholder="Photo ID type" required="required" data-validation-required-message="Please select photo ID type.">
-              <option value="">Photo ID</option>
+              <option value="">Photo ID type</option>
               <option value="passport">Passport</option>
               <option value="driving license">Driving license</option>
               <option value="pan card">PAN card</option>
@@ -164,7 +166,13 @@ $(function () {
             <p class="help-block text-danger"></p>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
+          <div class="form-group">
+            <input name="photoIdNumber-${index}" class="form-control" id="photoIdNumber-${index}" type="text" placeholder="Photo ID Number*" required="required" data-validation-required-message="Please enter photo ID number.">
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <div class="col-md-4">
           <div class="form-group">
             <input name="photoId-${index}" class="form-control file-selector" id="photoId-${index}" type="file" placeholder="Photo ID" required="required" data-validation-required-message="Please provide your photo ID.">
             <p class="help-block text-danger"></p>
